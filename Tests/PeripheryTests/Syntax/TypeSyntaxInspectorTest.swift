@@ -1,6 +1,7 @@
 import Foundation
 import XCTest
 import SwiftSyntax
+import SwiftSyntaxParser
 @testable import TestShared
 @testable import PeripheryKit
 

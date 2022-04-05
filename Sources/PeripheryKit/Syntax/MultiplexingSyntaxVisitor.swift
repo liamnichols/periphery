@@ -1,6 +1,7 @@
 import Foundation
 import SystemPackage
 import SwiftSyntax
+import SwiftSyntaxParser
 
 protocol PeripherySyntaxVisitor {
     static func make(sourceLocationBuilder: SourceLocationBuilder) -> Self

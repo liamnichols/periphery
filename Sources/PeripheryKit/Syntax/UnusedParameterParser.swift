@@ -1,6 +1,7 @@
 import Foundation
 import SystemPackage
 import SwiftSyntax
+import SwiftSyntaxParser
 
 protocol Item: AnyObject {
     var items: [Item] { get }
